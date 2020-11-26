@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ngrx-fire"
+  "defaultProject": "ngrx-fire",
+  "cli": {
+    "analytics": false
+  }
 }
