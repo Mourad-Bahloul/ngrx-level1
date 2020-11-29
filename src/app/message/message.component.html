@@ -1,0 +1,12 @@
+<div class="message">
+  <hr />
+  <div>
+    {{ message$ | async }}
+  </div>
+  <hr />
+  <div>
+    <button (click)="spanishMessage()">Spanish</button>
+    <button (click)="frenchMessage()">french</button>
+    <button (click)="defaultMessage()">English</button>
+  </div>
+</div>
